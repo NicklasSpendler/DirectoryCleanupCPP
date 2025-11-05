@@ -9,7 +9,7 @@ int main() {
 
     directoryCleanup->Cleanup();
 
-    //DirectoryCleanup::CreateTestFolders(testFolderPath, 10);
+    DirectoryCleanup::CreateTestFolders(testFolderPath, 10);
     //DirectoryCleanup::DeleteTestFolders(testFolderPath);
 
     return 0;

@@ -24,6 +24,7 @@ public:
             std::cout << "Target directory does not exist" << std::endl;
             return;
         }
+        Cleanup(m_targetDirectory);
     }
 
     static void Cleanup(const fs::path& path) {
